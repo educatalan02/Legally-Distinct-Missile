@@ -243,7 +243,7 @@ namespace Rocket.Unturned
 
             CommandWindow.onCommandWindowOutputted += (object text, ConsoleColor color) =>
             {
-                Core.Logging.Logger.ExternalLog(text, color);
+                //Core.Logging.Logger.ExternalLog(text, color);
             };
 
             /*
